@@ -11,7 +11,7 @@ export class NavbarComponent implements OnInit {
   tabs: TabItem[] = [
     {
       label: 'Home',
-      route: ''
+      route: 'home'
     },
     {
       label: "Work",
