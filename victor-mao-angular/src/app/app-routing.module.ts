@@ -27,13 +27,6 @@ const routes: Routes = [
       import('./hobbies/hobbies.module').then(
         (m) => m.HobbiesModule
       ),
-  },
-  {
-    path: 'contact-me',
-    loadChildren: () =>
-      import('./contact-me/contact-me.module').then(
-        (m) => m.ContactMeModule
-      )
   }
 ];
 

@@ -1,4 +1,4 @@
-<div class='some-page-wrapper'>
+<div>
     <div class='row'>
       <div class='column'>
           <div class="col-left">
@@ -7,8 +7,15 @@
       </div>
       <div class='column'>
           <div class="col-right">
-            <h1 class="md-display-4"><mat-icon>person</mat-icon>Victor Mao</h1>
-            <h1><mat-icon>place</mat-icon>Dallas, TX</h1>
+            <h1><i class="fas fa-user"></i>Victor Mao</h1>
+            <h1><i class="fas fa-map-marker-alt"></i>Dallas, TX</h1>
+            <h1 class="social-media">
+                <a *ngFor="let sm of socialMediaLinks"
+                    href="{{ sm.link }}"
+                    target="_blank">
+                    <i class="{{ sm.icon }}"></i>
+                </a>
+            </h1>
           </div>
       </div>
     </div>
