@@ -4,18 +4,18 @@ import { TabItem } from '../models/tab-item';
 @Component({
   selector: 'app-navbar',
   templateUrl: './navbar.component.html',
-  styleUrls: ['./navbar.component.sass']
+  styleUrls: ['./navbar.component.css']
 })
 export class NavbarComponent implements OnInit {
 
   tabs: TabItem[] = [
     {
-      label: 'Home',
-      route: 'home'
-    },
-    {
       label: "Work",
       route: 'work'
+    },
+    {
+      label: 'Home',
+      route: 'home'
     },
     {
       label: "Hobbies",
