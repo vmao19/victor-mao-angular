@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { TabItem } from '../tab-item';
+import { TabItem } from '../models/tab-item';
 
 @Component({
   selector: 'app-navbar',
@@ -20,10 +20,6 @@ export class NavbarComponent implements OnInit {
     {
       label: "Hobbies",
       route: 'hobbies'
-    },
-    {
-      label: "Contact Me",
-      route: 'contact-me'
     }
   ];
 

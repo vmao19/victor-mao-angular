@@ -28,9 +28,22 @@
 img {
   width:50%;
   border-radius: 50%;
-  border: 10px solid #80e27e;
+  border: 10px solid #69F0AE;
 }
 
-mat-icon {
-  margin-right: 5px;
+a {
+    color: #673AB7;
+}
+a:hover {
+    color:#69F0AE;
+}
+
+i {
+    margin-right: 5px;
+    width: 24px;
+    height: 24px;
+}
+
+.social-media i {
+    padding-right: 10px;
 }
