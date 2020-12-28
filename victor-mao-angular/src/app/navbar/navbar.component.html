@@ -1,5 +1,3 @@
-<router-outlet></router-outlet>
-
 <nav mat-tab-nav-bar mat-align-tabs="center" mat-header-position="above">
   <a mat-tab-link *ngFor="let tab of tabs"
     [routerLink]="tab.route"
@@ -9,3 +7,4 @@
   </a>
 </nav>
 
+<router-outlet></router-outlet>

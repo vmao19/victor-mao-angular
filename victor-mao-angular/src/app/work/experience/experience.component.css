@@ -1,0 +1,33 @@
+.wrapper {
+    margin: 5%;
+}
+
+mat-card {
+    width: 40%;
+    margin-bottom: 12px;
+}
+
+mat-card-header {
+    padding: 4px;
+}
+
+mat-card-subtitle {
+    margin-bottom: 0;
+}
+
+i {
+    margin-right: 4px;
+    width: 12px;
+}
+
+.mr-16 {
+    margin-right: 16px;
+}
+
+.primary-color {
+    color: #673AB7;
+}
+
+.mat-card-avatar {
+    border-radius: 0 !important;
+}
