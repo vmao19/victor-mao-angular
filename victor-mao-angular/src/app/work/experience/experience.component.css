@@ -16,7 +16,7 @@ mat-card-subtitle {
 }
 
 i {
-    margin-right: 4px;
+    margin-right: 6px;
     width: 12px;
 }
 
@@ -30,4 +30,5 @@ i {
 
 .mat-card-avatar {
     border-radius: 0 !important;
+    width: auto !important;
 }
