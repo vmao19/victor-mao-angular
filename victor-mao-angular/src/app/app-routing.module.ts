@@ -22,10 +22,10 @@ const routes: Routes = [
       ),
   },
   {
-    path: 'hobbies',
+    path: 'play',
     loadChildren: () =>
-      import('./hobbies/hobbies.module').then(
-        (m) => m.HobbiesModule
+      import('./play/play.module').then(
+        (m) => m.PlayModule
       ),
   }
 ];

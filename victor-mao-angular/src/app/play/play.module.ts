@@ -1,17 +1,17 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterModule } from '@angular/router';
-import { HobbiesComponent } from './hobbies.component';
+import { PlayComponent } from './play.component';
 
 @NgModule({
   declarations: [
-    HobbiesComponent
+    PlayComponent
   ],
   imports: [
     CommonModule,
     RouterModule.forChild(
-        [{ path: '', component: HobbiesComponent }]
+        [{ path: '', component: PlayComponent }]
       )
   ]
 })
-export class HobbiesModule { }
+export class PlayModule { }
