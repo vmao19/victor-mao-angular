@@ -1,0 +1,22 @@
+.column {
+    flex-direction: row;
+}
+
+mat-accordion {
+    width: 60%;
+    margin-top: 2%;
+}
+
+
+mat-expansion-panel {
+    /*border: 5px solid #69F0AE;*/
+    margin-bottom: 10px;
+}
+
+
+mat-panel-title {
+    flex-direction: row;
+    justify-content: center;
+    font: 400 24px/32px Roboto, "Helvetica Neue", sans-serif;
+    letter-spacing: normal;
+}
