@@ -1,9 +1,13 @@
-import {AfterViewInit, Component, ViewChild} from '@angular/core';
-import {animate, state, style, transition, trigger} from '@angular/animations';
+import { AfterViewInit, Component, ViewChild } from '@angular/core';
+import { animate, state, style, transition, trigger } from '@angular/animations';
+import { HttpClient } from '@angular/common/http';
+import { Observable, of } from 'rxjs';
+import { catchError, map } from 'rxjs/operators';
+import { environment } from '../../../environments/environment';
 
-import {MatPaginator} from '@angular/material/paginator';
-import {MatSort} from '@angular/material/sort';
-import {MatTableDataSource} from '@angular/material/table';
+import { MatPaginator } from '@angular/material/paginator';
+import { MatSort } from '@angular/material/sort';
+import { MatTableDataSource } from '@angular/material/table';
 
 @Component({
   selector: 'app-frisbee',
@@ -11,21 +15,32 @@ import {MatTableDataSource} from '@angular/material/table';
   styleUrls: ['./frisbee.component.css'],
   animations: [
     trigger('detailExpand', [
-      state('collapsed', style({height: '0px', minHeight: '0'})),
-      state('expanded', style({height: '*'})),
+      state('collapsed', style({ height: '0px', minHeight: '0' })),
+      state('expanded', style({ height: '*' })),
       transition('expanded <=> collapsed', animate('225ms cubic-bezier(0.4, 0.0, 0.2, 1)')),
     ]),
   ],
 })
 export class FrisbeeComponent implements AfterViewInit {
-  columnsToDisplay : string[] = ['date', 'name', 'city'];
+  columnsToDisplay: string[] = ['date', 'name', 'city'];
   dataSource: MatTableDataSource<FrisbeeItem>;
   expandedElement: FrisbeeItem | null;
 
   @ViewChild(MatPaginator) paginator: MatPaginator;
   @ViewChild(MatSort) sort: MatSort;
 
-  constructor() {
+  apiLoaded: Observable<boolean>;
+  options: google.maps.MapOptions = {
+    center: {lat: 32.7, lng: -96.9},
+    zoom: 6
+  };
+
+  constructor(httpClient: HttpClient) {
+    this.apiLoaded = httpClient.jsonp('https://maps.googleapis.com/maps/api/js?key=' + environment.apiKey, 'callback')
+      .pipe(
+        map(() => true),
+        catchError(() => of(false)),
+      );
     this.dataSource = new MatTableDataSource(FRISBEE_TOURNEYS);
   }
 
@@ -46,16 +61,16 @@ export class FrisbeeComponent implements AfterViewInit {
 }
 
 export interface FrisbeeItem {
-    name: string;
-    date: string;
-    city: string;
-    location: string;
-    team: string;
-    host: string;
-    seeded: number;
-    placed: number;
-    usau: string;
-    notes: string;
+  name: string;
+  date: string;
+  city: string;
+  location: string;
+  team: string;
+  host: string;
+  seeded: number;
+  placed: number;
+  usau: string;
+  notes: string;
 }
 
 const FRISBEE_TOURNEYS: FrisbeeItem[] = [
