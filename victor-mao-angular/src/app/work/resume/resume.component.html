@@ -1,16 +1,21 @@
-<mzd-timeline>
-  <mzd-timeline-content [card]="false" *ngFor="let tl of timelineItems">
-    <mzd-icon><i class="{{ tl.icon }}"></i></mzd-icon>
-    <mat-card>
-      <mat-card-header>
-        <img mat-card-avatar src="{{ tl.logo }}" [class]="tl.logo_class" alt="{{ tl.logo_alt }}" />
-        <mat-card-title>{{ tl.title }}</mat-card-title>
-        <mat-card-subtitle>
-          <i class="fas fa-calendar"></i>{{ tl.date }}
-          <br />
-          <i class="fas fa-map-marker-alt"></i>{{ tl.location }}
-        </mat-card-subtitle>
-      </mat-card-header>
-    </mat-card>
-  </mzd-timeline-content>
-</mzd-timeline>
+<div class="wrapper">
+  <div class="row">
+    <h1>Resume</h1>
+  </div>
+  <mzd-timeline>
+    <mzd-timeline-content [card]="false" *ngFor="let tl of timelineItems">
+      <mzd-icon><i class="{{ tl.icon }}"></i></mzd-icon>
+      <mat-card>
+        <mat-card-header>
+          <img mat-card-avatar src="{{ tl.logo }}" [class]="tl.logo_class" alt="{{ tl.logo_alt }}" />
+          <mat-card-title>{{ tl.title }}</mat-card-title>
+          <mat-card-subtitle>
+            <i class="fas fa-calendar"></i>{{ tl.date }}
+            <br />
+            <i class="fas fa-map-marker-alt"></i>{{ tl.location }}
+          </mat-card-subtitle>
+        </mat-card-header>
+      </mat-card>
+    </mzd-timeline-content>
+  </mzd-timeline>
+</div>
