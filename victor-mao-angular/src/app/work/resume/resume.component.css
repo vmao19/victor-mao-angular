@@ -2,7 +2,7 @@ mat-card-subtitle {
   margin-bottom: 0;
 }
 
-i {
+mat-card-subtitle i {
   margin-right: 6px;
   width: 12px;
 }

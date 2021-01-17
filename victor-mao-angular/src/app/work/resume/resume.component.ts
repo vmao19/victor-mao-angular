@@ -22,7 +22,7 @@ export class ResumeComponent implements OnInit {
       title: 'M.S. Information Technology and Management',
       date: 'Jan 2029 - May 2020',
       location: 'University of Texas at Dallas | Richardson, TX',
-      icon: 'fas fa-graduation-cap',
+      icon: 'fas fa-user-graduate',
       logo: 'https://www.utdallas.edu/brand/files/ut-dallas-border-5.png',
       logo_class: 'wide-logo',
       logo_alt: 'UT-Dallas Logo'
@@ -40,7 +40,7 @@ export class ResumeComponent implements OnInit {
       title: 'B.S. Computer Science',
       date: 'Aug 2016 - May 2019',
       location: 'University of Texas at Dallas | Richardson, TX',
-      icon: 'fas fa-graduation-cap',
+      icon: 'fas fa-user-graduate',
       logo: 'https://www.utdallas.edu/brand/files/ut-dallas-border-5.png',
       logo_class: 'wide-logo',
       logo_alt: 'UT-Dallas Logo'
@@ -49,7 +49,7 @@ export class ResumeComponent implements OnInit {
       title: 'Introduction to Data Science - Study Abroad',
       date: 'Aug 2018',
       location: 'London School of Economics | London, UK',
-      icon: 'fas fa-graduation-cap',
+      icon: 'fas fa-user-graduate',
       logo: 'https://blogsmedia.lse.ac.uk/blogs.dir/76/files/2019/10/cropped-LSE-Logo_Master-File_RGB_Txt_Blk_e0112b.png',
       logo_class: 'wide-logo',
       logo_alt: 'LSE Logo'
@@ -67,7 +67,7 @@ export class ResumeComponent implements OnInit {
       title: 'Pennsylvania Governor\'s School for the Sciences',
       date: 'Jul 2015',
       location: 'Carnegie Mellon University | Pittsburgh, PA',
-      icon: 'fas fa-graduation-cap',
+      icon: 'fas fa-user-graduate',
       logo: 'https://pgss-applications.pa-gov-schools.org/assets/logo-6b5a1ac09c4c86c95839abd5029c1b1e29345cd2a23adcb6c4dbc28410b0f806.png',
       logo_class: '',
       logo_alt: 'PGSS Logo'
