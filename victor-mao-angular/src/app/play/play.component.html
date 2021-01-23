@@ -1,0 +1,18 @@
+<div class="row">
+  <div class="column">
+    <h1>Frisbee Tournaments</h1>
+  </div>
+<div class="row">
+  <div class="column">
+    <div class="mat-elevation-z8" *ngIf="apiLoaded | async">
+      <google-map
+        height="550px"
+        width="750px"
+        [options]="options"></google-map>
+    </div>
+  </div>
+  <div class="column">
+    <app-frisbee></app-frisbee>
+  </div>
+  
+</div>

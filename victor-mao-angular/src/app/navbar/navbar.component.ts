@@ -18,8 +18,8 @@ export class NavbarComponent implements OnInit {
       route: 'home'
     },
     {
-      label: "Hobbies",
-      route: 'hobbies'
+      label: "Play",
+      route: 'play'
     }
   ];
 
