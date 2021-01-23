@@ -1,9 +1,5 @@
 import { AfterViewInit, Component, ViewChild } from '@angular/core';
 import { animate, state, style, transition, trigger } from '@angular/animations';
-import { HttpClient } from '@angular/common/http';
-import { Observable, of } from 'rxjs';
-import { catchError, map } from 'rxjs/operators';
-import { environment } from '../../../environments/environment';
 
 import { MatPaginator } from '@angular/material/paginator';
 import { MatSort } from '@angular/material/sort';
@@ -29,18 +25,7 @@ export class FrisbeeComponent implements AfterViewInit {
   @ViewChild(MatPaginator) paginator: MatPaginator;
   @ViewChild(MatSort) sort: MatSort;
 
-  apiLoaded: Observable<boolean>;
-  options: google.maps.MapOptions = {
-    center: {lat: 32.7, lng: -96.9},
-    zoom: 6
-  };
-
-  constructor(httpClient: HttpClient) {
-    this.apiLoaded = httpClient.jsonp('https://maps.googleapis.com/maps/api/js?key=' + environment.apiKey, 'callback')
-      .pipe(
-        map(() => true),
-        catchError(() => of(false)),
-      );
+  constructor() { 
     this.dataSource = new MatTableDataSource(FRISBEE_TOURNEYS);
   }
 
