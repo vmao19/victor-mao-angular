@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+}
+
+mzd-timeline {
+  position: relative;
+  display: block;
+  width: 100%;
+  padding: 50px 0;
+
+  // vertical line
+  & .mzd-timeline-line {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    right: auto;
+    height: 100%;
+    width: 1px;
+    background: gray;
+
+    &.no-alternate {
+      &.left {
+        left: 30px;
+        right: auto;
+      }
+      &.right {
+        left: auto;
+        right: 30px;
+      }
+    }
+  }
+
+  // xs devices
+  @media screen and (max-width: 599px) {
+
+    // place the line at the left side
+    & .mzd-timeline-line {
+      left: 30px;
+      right: auto;
+    }
+  }
+}

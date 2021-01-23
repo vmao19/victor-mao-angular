@@ -1,0 +1,16 @@
+<div class="wrapper">
+  <div class="row">
+    <h1>Projects</h1>
+  </div>
+  <mat-grid-list cols="3" rowHeight="2:1">
+    <mat-grid-tile *ngFor="let project of projects">
+      <mat-grid-tile-header>{{ project.title }}</mat-grid-tile-header>
+      <mat-grid-tile-footer>
+        <mat-chip-list [selectable]="false">
+          <mat-chip *ngFor="let chip of project.tech">{{ chip }}</mat-chip>
+        </mat-chip-list>
+      </mat-grid-tile-footer>
+    </mat-grid-tile>
+  </mat-grid-list>
+</div>
+

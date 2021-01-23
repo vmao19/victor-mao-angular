@@ -1,28 +1,5 @@
 .row {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  width: 100%;
   height: 90vh;
-}
-
-.column {
-  display: flex;
-  flex-direction: column;
-  flex-basis: 100%;
-  flex: 1;
-  justify-content: center;
-  padding: 1%;
-}
-
-.col-left {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
-}
-
-.col-right {
-  justify-content: flex-start;
 }
 
 img {
@@ -40,8 +17,8 @@ a:hover {
 
 i {
     margin-right: 5px;
-    width: 24px;
-    height: 24px;
+    width: 30px;
+    text-align: center;
 }
 
 .social-media i {

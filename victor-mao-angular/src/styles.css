@@ -1,0 +1,27 @@
+/* You can add global styles to this file, and also import other style files */
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+  }
+  
+  .column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+    justify-content: center;
+    padding: 1%;
+  }
+  
+  .col-left {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+  
+  .col-right {
+    justify-content: flex-start;
+  }
