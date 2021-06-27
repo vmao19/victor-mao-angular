@@ -1,15 +1,15 @@
 <div>
     <div class='row'>
       <div class='column'>
-          <div class="col-left">
+          <div class="col-left" @fade>
             <img src="../../assets/profile-pic-cropped.jpg" alt="A headshot profile picture of me.">
           </div>
       </div>
       <div class='column'>
           <div class="col-right">
-            <h1><i class="fas fa-user"></i>Victor Mao</h1>
-            <h1><i class="fas fa-map-marker-alt"></i>Dallas, TX</h1>
-            <h1 class="social-media">
+            <h1 @fade><i class="fas fa-user"></i>Victor Mao</h1>
+            <h1 @fade><i class="fas fa-map-marker-alt"></i>Dallas, TX</h1>
+            <h1 class="social-media" @fadeStaggered>
                 <a *ngFor="let sm of socialMediaLinks"
                     href="{{ sm.link }}"
                     target="_blank">

@@ -10,6 +10,8 @@ import { MatInputModule } from '@angular/material/input';
 import { MatSortModule } from '@angular/material/sort';
 import { MatGridListModule } from '@angular/material/grid-list';
 import { MatChipsModule } from '@angular/material/chips';
+import { MatDialogModule } from '@angular/material/dialog';
+import { MatButtonModule } from '@angular/material/button';
 
 @NgModule({
   declarations: [],
@@ -27,7 +29,9 @@ import { MatChipsModule } from '@angular/material/chips';
     MatSortModule,
     MatCardModule,
     MatGridListModule,
-    MatChipsModule
+    MatChipsModule,
+    MatDialogModule,
+    MatButtonModule
   ]
 })
 export class MaterialModule { }
