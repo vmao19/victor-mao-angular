@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { SocialMediaItem } from '../models/social-media-item';
+import { SocialMediaItem } from '../../models/social-media-item';
 
 @Component({
   selector: 'app-home',

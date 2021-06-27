@@ -6,12 +6,16 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { MaterialModule } from './shared/material.module';
-import { NavbarComponent } from './navbar/navbar.component';
+import { HomeComponent } from './components/home/home.component';
+import { ProjectsComponent } from './components/projects/projects.component';
+import { InterestsComponent } from './components/interests/interests.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    NavbarComponent
+    HomeComponent,
+    ProjectsComponent,
+    InterestsComponent
   ],
   imports: [
     BrowserModule,
