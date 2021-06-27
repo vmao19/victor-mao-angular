@@ -31,7 +31,7 @@ export class HomeComponent implements OnInit {
     {
       name: 'Email',
       link: 'mailto@victormao98@gmail.com',
-      icon: 'fas fa-at'
+      icon: 'fas fa-envelope'
     },
     {
       name: 'LinkedIn',
@@ -42,16 +42,6 @@ export class HomeComponent implements OnInit {
       name: 'GitHub',
       link: 'https://github.com/vmao19',
       icon: 'fab fa-github'
-    },
-    {
-      name: 'Facebook',
-      link: 'https://www.facebook.com/profile.php?id=100004286235811',
-      icon: 'fab fa-facebook'
-    },
-    {
-      name: 'Instagram',
-      link: 'https://www.instagram.com/victor.depictor/',
-      icon: 'fab fa-instagram'
     }
   ];
 

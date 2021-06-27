@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { ProjectItem } from '../../models/project-item';
+import {MatDialog, MAT_DIALOG_DATA} from '@angular/material/dialog';
+import { ProjectDialogComponent } from './project-dialog/project-dialog.component';
 
 @Component({
   selector: 'app-projects',
@@ -11,65 +13,66 @@ export class ProjectsComponent implements OnInit {
   projects: ProjectItem[] = [
     {
       title: 'Personal Website v2',
-      subtitle: '',
+      date: 'June 2021',
       description: '',
-      background: '',
-      date: '',
+      image: '',
       tech: ['Angular', 'HTML', 'CSS']
     },
     {
       title: 'Drivelytics 2.0',
-      subtitle: '',
+      date: 'Spring 2019, 16 Weeks',
       description: '',
-      background: '',
-      date: '',
+      image: '',
       tech: ['Swift']
     },
     {
       title: 'Android Contact Manager',
-      subtitle: '',
-      description: '',
-      background: '',
       date: '',
+      description: '',
+      image: '',
       tech: ['Android', 'Java']
     },
     {
       title: 'Personal Website v1',
-      subtitle: '',
-      description: '',
-      background: '',
       date: '',
+      description: '',
+      image: '',
       tech: ['HTML', 'CSS']
     },
     {
       title: 'Stroopsanity',
-      subtitle: '',
-      description: '',
-      background: '',
       date: '',
+      description: '',
+      image: '',
       tech: ['C#', 'Unity']
     },
     {
       title: 'Boggle',
-      subtitle: '',
-      description: '',
-      background: '',
       date: '',
+      description: '',
+      image: '',
       tech: ['VB.NET']
     },
     {
       title: 'Hangmaster Dynasty',
-      subtitle: '',
-      description: '',
-      background: '',
       date: '',
+      description: '',
+      image: '',
       tech: ['VB.NET']
     },
   ];
 
-  constructor() { }
+  constructor(public dialog: MatDialog) { }
 
   ngOnInit(): void {
+  }
+
+  openDialog(p: ProjectItem) {
+    this.dialog.open(ProjectDialogComponent, {
+      data: {
+        project: p
+      }
+    });
   }
 
 }

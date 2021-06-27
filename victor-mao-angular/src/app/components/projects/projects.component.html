@@ -2,15 +2,39 @@
   <div class="row">
     <h1>Projects</h1>
   </div>
-  <mat-grid-list cols="3" rowHeight="2:1">
-    <mat-grid-tile *ngFor="let project of projects">
-      <mat-grid-tile-header>{{ project.title }}</mat-grid-tile-header>
+  <div class="content">
+    <div fxLayout="row wrap" fxLayoutGap="16px grid">
+      <div fxFlex="33%" fxFlex.xs="100%" fxFlex.sm="50%" *ngFor="let project of projects">
+        <mat-card class="mat-elevation-z4" >
+          <mat-card-header>
+            <mat-card-title>{{ project.title }}</mat-card-title>
+            <mat-card-subtitle>{{ project.date }}</mat-card-subtitle>
+          </mat-card-header>
+          <img mat-card-image src="../../../assets/project-images/profile-pic-cropped.jpg">
+          <mat-card-content>
+            <mat-chip-list [selectable]="false">
+              <mat-chip *ngFor="let chip of project.tech">{{ chip }}</mat-chip>
+            </mat-chip-list>
+          </mat-card-content>
+          <mat-card-actions>
+            <button mat-button (click)="openDialog(project)">LEARN MORE</button>
+          </mat-card-actions>
+        </mat-card>
+      </div>
+    </div>
+  </div>
+  <!-- <mat-grid-list cols="3" rowHeight="2:1">
+    <mat-grid-tile *ngFor="let project of projects" onClick="openDialog()">
+      <mat-grid-tile-header  style="display: flex">
+          <span style="flex: 1; text-align: left;">{{ project.title }}</span>
+          <span style="flex: 1; text-align: right;">{{ project.subtitle }}</span>
+      </mat-grid-tile-header>
       <mat-grid-tile-footer>
         <mat-chip-list [selectable]="false">
           <mat-chip *ngFor="let chip of project.tech">{{ chip }}</mat-chip>
         </mat-chip-list>
       </mat-grid-tile-footer>
     </mat-grid-tile>
-  </mat-grid-list>
+  </mat-grid-list> -->
 </div>
 
