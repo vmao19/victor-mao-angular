@@ -56,7 +56,7 @@ export class ProjectsComponent implements OnInit {
     {
       title: 'Hangmaster Dynasty',
       subtitle: '2012',
-      description: '',
+      description: '**TEST** TEST *TEST*',
       image: '',
       tech: ['VB.NET']
     },

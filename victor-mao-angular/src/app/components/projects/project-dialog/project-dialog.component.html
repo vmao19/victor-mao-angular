@@ -1,1 +1,10 @@
-<p>project-dialog works!</p>
+<h1 mat-dialog-title>{{ data.project.title }} | {{ data.project.subtitle }}</h1>
+<mat-dialog-content>
+  <mat-chip-list [selectable]="false">
+    <div class="row"><mat-chip *ngFor="let chip of data.project.tech">{{ chip }}</mat-chip></div>
+    <div class="row" [innerHTML]="data.project.description | marked"></div>
+  </mat-chip-list>
+</mat-dialog-content>
+<mat-dialog-actions align="end">
+  <button mat-button mat-dialog-close>Close</button>
+</mat-dialog-actions>

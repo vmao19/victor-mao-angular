@@ -12,13 +12,16 @@ import { ProjectsComponent } from './components/projects/projects.component';
 import { ProjectDialogComponent } from './components/projects/project-dialog/project-dialog.component';
 import { InterestsComponent } from './components/interests/interests.component';
 
+import { MarkedPipe } from './shared/marked.pipe';
+
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     ProjectsComponent,
     ProjectDialogComponent,
-    InterestsComponent
+    InterestsComponent,
+    MarkedPipe
   ],
   imports: [
     BrowserModule,
