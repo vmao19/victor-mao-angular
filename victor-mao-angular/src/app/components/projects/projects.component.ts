@@ -13,49 +13,49 @@ export class ProjectsComponent implements OnInit {
   projects: ProjectItem[] = [
     {
       title: 'Personal Website v2',
-      date: 'June 2021',
+      subtitle: 'June 2021',
       description: '',
       image: '',
       tech: ['Angular', 'HTML', 'CSS']
     },
     {
-      title: 'Drivelytics 2.0',
-      date: 'Spring 2019, 16 Weeks',
+      title: 'State Farm - Drivelytics 2.0',
+      subtitle: 'Spring 2019, 16 Weeks',
       description: '',
       image: '',
       tech: ['Swift']
     },
     {
       title: 'Android Contact Manager',
-      date: '',
+      subtitle: '2018',
       description: '',
       image: '',
       tech: ['Android', 'Java']
     },
     {
       title: 'Personal Website v1',
-      date: '',
+      subtitle: 'Aug 2019',
       description: '',
       image: '',
       tech: ['HTML', 'CSS']
     },
     {
       title: 'Stroopsanity',
-      date: '',
+      subtitle: 'Oct 2015 - Feb 2016',
       description: '',
       image: '',
       tech: ['C#', 'Unity']
     },
     {
       title: 'Boggle',
-      date: '',
+      subtitle: '2012',
       description: '',
       image: '',
       tech: ['VB.NET']
     },
     {
       title: 'Hangmaster Dynasty',
-      date: '',
+      subtitle: '2012',
       description: '',
       image: '',
       tech: ['VB.NET']
