@@ -3,4 +3,5 @@ export interface InterestItem {
     subtitle: string;
     description: string;
     image: string;
+    alt: string;
 }

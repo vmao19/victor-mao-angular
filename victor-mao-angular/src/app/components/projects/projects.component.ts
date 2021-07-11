@@ -16,6 +16,7 @@ export class ProjectsComponent implements OnInit {
       subtitle: 'June 2021',
       description: '',
       image: '../../../assets/projects/images/raspberry-pi-scaled.jpg',
+      alt: 'Stock photo of a Raspberry Pi computer.'
       tech: ['Angular', 'HTML', 'CSS', 'Raspberry Pi']
     },
     {
@@ -23,6 +24,7 @@ export class ProjectsComponent implements OnInit {
       subtitle: 'Spring 2019, 16 Weeks',
       description: '../../../assets/projects/markdown/capstone.md',
       image: '../../../assets/projects/images/capstone-scaled.jpg',
+      alt: 'Stock photo of an iPhone in a car phone holder.'
       tech: ['Swift']
     },
     {
@@ -30,6 +32,7 @@ export class ProjectsComponent implements OnInit {
       subtitle: '2018',
       description: '',
       image: '../../../assets/projects/images/contact-manager-scaled.jpg',
+      alt: 'Stock photo hands holding an iPhone.'
       tech: ['Android', 'Java']
     },
     {
@@ -37,6 +40,7 @@ export class ProjectsComponent implements OnInit {
       subtitle: 'Aug 2019',
       description: '',
       image: '../../../assets/projects/images/personal-website-scaled.jpg',
+      alt: 'Photo of my Personal Website v1 on a laptop screen.',
       tech: ['HTML', 'CSS', 'Raspberry Pi']
     },
     {
@@ -44,6 +48,7 @@ export class ProjectsComponent implements OnInit {
       subtitle: 'Oct 2015 - Feb 2016',
       description: '',
       image: '../../../assets/projects/images/stroopsanity-scaled.jpg',
+      alt: 'Stock photo of colored pencils.',
       tech: ['C#', 'Unity']
     },
     {
@@ -51,6 +56,7 @@ export class ProjectsComponent implements OnInit {
       subtitle: '2012',
       description: '',
       image: '../../../assets/projects/images/boggle-scaled.jpg',
+      alt: 'Stock photo of Boggle cubes.',
       tech: ['VB.NET']
     },
     {
@@ -58,6 +64,7 @@ export class ProjectsComponent implements OnInit {
       subtitle: '2012',
       description: '**TEST** TEST *TEST*',
       image: '../../../assets/projects/images/hangman-scaled.jpg',
+      alt: 'Stock photo of a Hangman game.',
       tech: ['VB.NET']
     },
   ];

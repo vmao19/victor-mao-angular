@@ -3,5 +3,6 @@ export interface ProjectItem {
     subtitle: string;
     description: string;
     image: string;
+    alt: string;
     tech: string[];
 }
