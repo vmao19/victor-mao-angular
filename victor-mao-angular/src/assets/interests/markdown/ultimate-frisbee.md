@@ -1,8 +1,8 @@
 ![Callahan gif](assets/interests/images/callahan.gif)
 
-#### Captain of UTD Ultimate Frisbee Club ####
+### Captain of UTD Ultimate Frisbee Club ###
 
-###### Fall 2017 - Spring 2019 ######
+#### Fall 2017 - Spring 2019 ####
 
 * Back-to-back North Texas D1 Section Champs in 2018 and 2019
 * 2018 UTD Club of the Year
@@ -16,9 +16,9 @@ Follow us on Twitter [@UTD_Ultimate](https://twitter.com/UTD_Ultimate)
 
 ![Woof](assets/interests/images/woof-scaled.jpg)
 
-#### Volunteer Coach ####
+### Volunteer Coach ###
 
-###### Summer 2017 #######
+#### Summer 2017 #####
 
 * Worked with Early Recognition is Critical (E.R.I.C) as a volunteer coach
 * Educated Dallas area middle-school and high-school aged children on the ten most common cancer symptoms and emphasized the importance of early recognition

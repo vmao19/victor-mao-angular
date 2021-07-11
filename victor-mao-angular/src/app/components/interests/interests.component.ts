@@ -13,21 +13,21 @@ export class InterestsComponent implements OnInit {
   interests: InterestItem[] = [
     {
       title: 'Ultimate Frisbee',
-      subtitle: '',
+      subtitle: '2012 - Present',
       description: '../../../assets/interests/markdown/ultimate-frisbee.md',
       image: '../../../assets/interests/images/frisbee-scaled.jpg',
       alt: 'Photo of me catching a frisbee.'
     },
     {
       title: 'Billboard Top 100',
-      subtitle: '',
+      subtitle: 'Jul 2014 - Dec 2017',
       description: '../../../assets/interests/markdown/billboard.md',
       image: '../../../assets/interests/images/billboard-scaled.jpg',
       alt: 'Stock photo of a music concert.'
     },
     {
       title: 'Eagle Scout',
-      subtitle: '',
+      subtitle: 'Nov 14 2013',
       description: '../../../assets/interests/markdown/eagle-scout.md',
       image: '../../../assets/interests/images/eagle-scout-scaled.jpg',
       alt: 'Stock photo of an Eagle Scout pin.'

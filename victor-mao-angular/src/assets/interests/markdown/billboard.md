@@ -12,7 +12,6 @@ At the time of the project, the RSS feed URL was https://www.billboard.com/rss/c
 
 # Download #
 
-* [July 26, 2014 - January 9, 2016](assets/interests/files/Billboard Top 100 1.xlsx)
-* [January 16, 2016 - June 24, 2017](assets/interests/files/Billboard Top 100 2.xlsx)
-* [July 1, 2017 - December 30, 2017](assets/interests/files/Billboard Top 100 3.xlsx)
-
+* <a href="assets/interests/files/Billboard Top 100 1.xlsx" download>July 26, 2014 - January 9, 2016</a>
+* <a href="assets/interests/files/Billboard Top 100 2.xlsx" download>January 16, 2016 - June 24, 2017</a>
+* <a href="assets/interests/files/Billboard Top 100 3.xlsx" download>July 1, 2017 - December 30, 2017</a>

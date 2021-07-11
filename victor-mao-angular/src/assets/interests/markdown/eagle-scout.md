@@ -1,5 +1,3 @@
-> Became an Eagle Scout on November 14th, 2013
-
 # Eagle Scout Project #
 
 * Collaborated with the [Westmoreland Conservancy]("http://www.westmorelandconservancy.org/") and headed a project to create professional, updated maps for 5 different reserves.
