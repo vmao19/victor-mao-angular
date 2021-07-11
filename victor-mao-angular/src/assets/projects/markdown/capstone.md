@@ -1,3 +1,5 @@
+> Sponsored by State Farm. First Place Project @ Spring 2019 CS Expo.
+
 # Goal #
 
 The goal of our senior design project was to augment the existing beaconless solution (Drivelytics 1.0) and implement **application enhancements** and an **improved scoring algorithm** to produce a more accurate and nuanced representation and rating of the driver’s performance and to create an all in one mobile application for State Farm insured drivers.

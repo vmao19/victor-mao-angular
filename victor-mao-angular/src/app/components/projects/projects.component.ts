@@ -14,9 +14,9 @@ export class ProjectsComponent implements OnInit {
     {
       title: 'Personal Website v2',
       subtitle: 'June 2021',
-      description: '',
+      description: '../../../assets/projects/markdown/personal-website-v2.md',
       image: '../../../assets/projects/images/raspberry-pi-scaled.jpg',
-      alt: 'Stock photo of a Raspberry Pi computer.'
+      alt: 'Stock photo of a Raspberry Pi computer.',
       tech: ['Angular', 'HTML', 'CSS', 'Raspberry Pi']
     },
     {
@@ -24,21 +24,21 @@ export class ProjectsComponent implements OnInit {
       subtitle: 'Spring 2019, 16 Weeks',
       description: '../../../assets/projects/markdown/capstone.md',
       image: '../../../assets/projects/images/capstone-scaled.jpg',
-      alt: 'Stock photo of an iPhone in a car phone holder.'
+      alt: 'Stock photo of an iPhone in a car phone holder.',
       tech: ['Swift']
     },
     {
       title: 'Android Contact Manager',
       subtitle: '2018',
-      description: '',
+      description: '../../../assets/projects/markdown/contact-manager.md',
       image: '../../../assets/projects/images/contact-manager-scaled.jpg',
-      alt: 'Stock photo hands holding an iPhone.'
+      alt: 'Stock photo hands holding an iPhone.',
       tech: ['Android', 'Java']
     },
     {
       title: 'Personal Website v1',
       subtitle: 'Aug 2019',
-      description: '',
+      description: '../../../assets/projects/markdown/personal-website-v1.md',
       image: '../../../assets/projects/images/personal-website-scaled.jpg',
       alt: 'Photo of my Personal Website v1 on a laptop screen.',
       tech: ['HTML', 'CSS', 'Raspberry Pi']
@@ -46,7 +46,7 @@ export class ProjectsComponent implements OnInit {
     {
       title: 'Stroopsanity',
       subtitle: 'Oct 2015 - Feb 2016',
-      description: '',
+      description: '../../../assets/projects/markdown/stroopsanity.md',
       image: '../../../assets/projects/images/stroopsanity-scaled.jpg',
       alt: 'Stock photo of colored pencils.',
       tech: ['C#', 'Unity']
@@ -54,7 +54,7 @@ export class ProjectsComponent implements OnInit {
     {
       title: 'Boggle',
       subtitle: '2012',
-      description: '',
+      description: '../../../assets/projects/markdown/boggle.md',
       image: '../../../assets/projects/images/boggle-scaled.jpg',
       alt: 'Stock photo of Boggle cubes.',
       tech: ['VB.NET']
@@ -62,7 +62,7 @@ export class ProjectsComponent implements OnInit {
     {
       title: 'Hangmaster Dynasty',
       subtitle: '2012',
-      description: '**TEST** TEST *TEST*',
+      description: '../../../assets/projects/markdown/hangman.md',
       image: '../../../assets/projects/images/hangman-scaled.jpg',
       alt: 'Stock photo of a Hangman game.',
       tech: ['VB.NET']
