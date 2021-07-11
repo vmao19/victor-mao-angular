@@ -1,7 +1,7 @@
 <h1 mat-dialog-title>{{ data.project.title }} | {{ data.project.subtitle }}</h1>
 <mat-dialog-content>
   <mat-chip-list [selectable]="false">
-    <div [innerHTML]="data.project.description | marked"></div>
+    <div [innerHTML]="description | marked"></div>
   </mat-chip-list>
 </mat-dialog-content>
 <mat-dialog-actions align="end">
