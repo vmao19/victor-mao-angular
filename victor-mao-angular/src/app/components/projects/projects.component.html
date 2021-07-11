@@ -10,7 +10,7 @@
             <mat-card-title>{{ project.title }}</mat-card-title>
             <mat-card-subtitle>{{ project.subtitle }}</mat-card-subtitle>
           </mat-card-header>
-          <img mat-card-image src="../../../assets/project-images/profile-pic-cropped.jpg">
+          <img mat-card-image src="{{ project.image }}">
           <mat-card-content>
             <mat-chip-list [selectable]="false">
               <mat-chip *ngFor="let chip of project.tech">{{ chip }}</mat-chip>
