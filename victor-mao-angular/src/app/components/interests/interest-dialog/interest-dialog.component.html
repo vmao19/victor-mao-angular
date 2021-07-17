@@ -1,0 +1,8 @@
+<mat-card-title>{{ data.interest.title }}</mat-card-title>
+<mat-card-subtitle>{{ data.interest.subtitle }}</mat-card-subtitle>
+<mat-dialog-content>
+  <div [innerHTML]="description | marked"></div>
+</mat-dialog-content>
+<mat-dialog-actions align="end">
+  <button mat-button mat-dialog-close>Close</button>
+</mat-dialog-actions>

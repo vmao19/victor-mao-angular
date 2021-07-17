@@ -1,1 +1,8 @@
-<p>project-dialog works!</p>
+<mat-card-title>{{ data.project.title }}</mat-card-title>
+<mat-card-subtitle>{{ data.project.subtitle }}</mat-card-subtitle>
+<mat-dialog-content>
+  <div [innerHTML]="description | marked"></div>
+</mat-dialog-content>
+<mat-dialog-actions align="end">
+  <button mat-button mat-dialog-close>Close</button>
+</mat-dialog-actions>
