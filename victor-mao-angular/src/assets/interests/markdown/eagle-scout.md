@@ -1,6 +1,6 @@
 # Eagle Scout Project #
 
-* Collaborated with the [Westmoreland Conservancy ("http://www.westmorelandconservancy.org/") and headed a project to create professional, updated maps for 5 different reserves.
+* Collaborated with the [Westmoreland Conservancy](http://www.westmorelandconservancy.org/) and headed a project to create professional, updated maps for 5 different reserves.
 * Led a group of boy scouts and utilized hand-held GPS’s to collect longitude-latitude coordinates along the reserve trails
 * Imported coordinate data into QuantumGIS to create trail outlines and added additional map features using Inkscape
 * Compiled a 30-page manual with step-by-step directions on how to create maps for future reserve additions
