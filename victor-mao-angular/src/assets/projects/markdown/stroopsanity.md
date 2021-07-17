@@ -22,3 +22,8 @@ Download the zip, which includes Stroopsanity.exe and Stroopsanity_data. Unzip. 
 * GIMP 2
 * Audacity
 
+# Screenshots #
+
+<img src="assets/projects/images/stroopsanity1.png" width="30%" alt="Main Menu Screenshot" />
+<img src="assets/projects/images/stroopsanity2.png" width="30%" alt="Levels Menu Screenshot" />
+<img src="assets/projects/images/stroopsanity3.png" width="30%" alt="Gameplay Screenshot" />

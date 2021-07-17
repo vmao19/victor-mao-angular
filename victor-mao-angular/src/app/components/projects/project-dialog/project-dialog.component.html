@@ -1,4 +1,5 @@
-<h1 mat-dialog-title>{{ data.project.title }} | {{ data.project.subtitle }}</h1>
+<mat-card-title>{{ data.project.title }}</mat-card-title>
+<mat-card-subtitle>{{ data.project.subtitle }}</mat-card-subtitle>
 <mat-dialog-content>
   <div [innerHTML]="description | marked"></div>
 </mat-dialog-content>

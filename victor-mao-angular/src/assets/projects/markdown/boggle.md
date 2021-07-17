@@ -56,3 +56,13 @@ The music I downloaded from [YouTube](https://www.youtube.com/watch?v=S_BzmU8GWT
 * Recursion
 * HashTables
 * File Reading/Writing
+
+# Screenshots #
+
+<img src="assets/projects/images/boggle1.png" width="30%" alt="Main Menu Screenshot" />
+<img src="assets/projects/images/boggle2.png" width="30%" alt="Gameplay Screenshot" />
+<img src="assets/projects/images/boggle3.png" width="30%" alt="Time's Up Screenshot" />
+
+<img src="assets/projects/images/boggle4.png" width="30%" alt="Load Player Profile Screenshot" />
+<img src="assets/projects/images/boggle5.png" width="30%" alt="Saved Games Menu Screenshot" />
+<img src="assets/projects/images/boggle6.png" width="30%" alt="Statistics Menu Screenshot"/>

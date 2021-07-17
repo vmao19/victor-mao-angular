@@ -1,4 +1,6 @@
-> Sponsored by State Farm. First Place Project @ Spring 2019 CS Expo.
+# Award #
+
+First Place Project @ Spring 2019 CS Expo.
 
 # Goal #
 
@@ -16,3 +18,10 @@ The goal of our senior design project was to augment the existing beaconless sol
 
 Throughout the course of the Spring 2019 capstone project, our team researched and implemented enhanced functionalities to the existing Drivelytics mobile application. The three primary enhancements accomplished by our team were speeding, traffic, and construction. These enhancements improve the existing implementation of the driver scoring algorithm by increasing robustness through the addition of new metrics. Additionally, our team implemented push notification support for before and after trips to notify users of drive scores, billing cycles, and emergency weather alerts. Lastly, we added a toggleable option to allow users to customize which additional metrics would influence the calculation of their drive scores. In conclusion, our team was able to improve multiple aspects of the previous semester’s Drivelytics mobile application, such as algorithm design, external data usage, user experience, and application robustness.
 
+# Poster #
+
+<object data="assets/projects/files/capstone-poster.pdf" type="application/pdf" width="75%">
+    <embed src="assets/projects/files/capstone-poster.pdf">
+        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="assets/projects/files/capstone-poster.pdf" download>Download PDF</a>.</p>
+    </embed>
+</object>

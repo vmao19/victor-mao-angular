@@ -9,20 +9,6 @@ Create an Android mobile application that manages contacts. This project was spl
 3. Overhaul text file database and implement SQLite Database.
 4. Add address fields and google map API reverse geocoding.
 
-# Screenshots #
-
-![Main Activity Screenshot](assets/projects/images/cm1.png)
-
-![Menu Options Screenshot](assets/projects/images/cm2.png)
-
-![New Contact Screenshot](assets/projects/images/cm3.png)
-
-![Existing Contact Screenshot](assets/projects/images/cm4.png)
-
-![Date Picker Screenshot](assets/projects/images/cm5.png)
-
-![Map Activity Screenshot](assets/projects/images/cm6.png)
-
 # Programming Languages #
 
 * Java
@@ -46,3 +32,13 @@ Create an Android mobile application that manages contacts. This project was spl
 * Async Tasks
 * JSON Parsing
 * Current Location via Location Services
+
+# Screenshots #
+
+<img src="assets/projects/images/cm1.png" width="30%" alt="Main Activity Screenshot" />
+<img src="assets/projects/images/cm2.png" width="30%" alt="Menu Options Screenshot" />
+<img src="assets/projects/images/cm3.png" width="30%" alt="New Contact Screenshot" />
+
+<img src="assets/projects/images/cm4.png" width="30%" alt="Existing Contact Screenshot" />
+<img src="assets/projects/images/cm5.png" width="30%" alt="Date Picker Screenshot" />
+<img src="assets/projects/images/cm6.png" width="30%" alt="Map Activity Screenshot"/>

@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ProjectItem } from '../../models/project-item';
-import {MatDialog, MAT_DIALOG_DATA} from '@angular/material/dialog';
+import { MatDialog, MAT_DIALOG_DATA } from '@angular/material/dialog';
 import { ProjectDialogComponent } from './project-dialog/project-dialog.component';
 
 @Component({
@@ -20,7 +20,7 @@ export class ProjectsComponent implements OnInit {
       tech: ['Angular', 'HTML', 'CSS', 'Raspberry Pi']
     },
     {
-      title: 'State Farm - Drivelytics 2.0',
+      title: 'Drivelytics 2.0 - Sponsored by State Farm',
       subtitle: 'Spring 2019, 16 Weeks',
       description: '../../../assets/projects/markdown/capstone.md',
       image: '../../../assets/projects/images/capstone-scaled.jpg',

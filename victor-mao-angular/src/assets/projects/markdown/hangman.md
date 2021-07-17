@@ -18,5 +18,11 @@ This is a computer game version of the populat game Hangman created in **VB.NET*
 * Arrays
 * File Reading/Writing
 
+# Screenshots #
 
+<img src="assets/projects/images/hangmaster1.png" width="30%" alt="Main Menu Screenshot" />
+<img src="assets/projects/images/hangmaster2.png" width="30%" alt="Load Player Profile Screenshot" />
+<img src="assets/projects/images/hangmaster3.png" width="30%" alt="Statistics Menu Screenshot" />
 
+<img src="assets/projects/images/hangmaster4.png" width="30%" alt="Gameplay Screenshot" />
+<img src="assets/projects/images/hangmaster5.png" width="30%" alt="Win Game Screenshot" />

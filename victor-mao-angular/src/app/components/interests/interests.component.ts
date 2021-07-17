@@ -27,7 +27,7 @@ export class InterestsComponent implements OnInit {
     },
     {
       title: 'Eagle Scout',
-      subtitle: 'Nov 14 2013',
+      subtitle: '14 Nov 2013',
       description: '../../../assets/interests/markdown/eagle-scout.md',
       image: '../../../assets/interests/images/eagle-scout-scaled.jpg',
       alt: 'Stock photo of an Eagle Scout pin.'

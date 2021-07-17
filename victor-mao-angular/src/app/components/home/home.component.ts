@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { SocialMediaItem } from '../../models/social-media-item';
-import {trigger, style, animate, transition, query, stagger} from '@angular/animations';
+import { trigger, style, animate, transition, query, stagger } from '@angular/animations';
 
 @Component({
   selector: 'app-home',
@@ -10,14 +10,14 @@ import {trigger, style, animate, transition, query, stagger} from '@angular/anim
     trigger('fade', [ 
       transition(':enter', [
           style({ opacity: 0 }),
-          animate('1000ms ease-in', style({ opacity: 1 }))
+          animate('1250ms ease-in', style({ opacity: 1 }))
       ])
     ]),
     trigger('fadeStaggered', [ 
       transition(':enter', [
         query('*', [
           style({ opacity: 0 }),
-          stagger('200ms', [
+          stagger('250ms', [
             animate('1000ms ease-in', style({ opacity: 1 }))
           ])
         ])
