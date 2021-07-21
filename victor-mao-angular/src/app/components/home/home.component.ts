@@ -30,7 +30,7 @@ export class HomeComponent implements OnInit {
   socialMediaLinks: SocialMediaItem[] = [
     {
       name: 'Email',
-      link: 'mailto@victormao98@gmail.com',
+      link: 'mailto:me@victormao.com',
       icon: 'fas fa-envelope'
     },
     {
@@ -42,6 +42,11 @@ export class HomeComponent implements OnInit {
       name: 'GitHub',
       link: 'https://github.com/vmao19',
       icon: 'fab fa-github'
+    },
+    {
+      name: 'Old Website',
+      link: 'http://old.victormao.com',
+      icon: 'fas fa-history'
     }
   ];
 
